@@ -293,7 +293,7 @@ void retro_get_system_info(struct retro_system_info *info)
 	sprintf(library_version, "v%x.%x.%x.%02x %s", nBurnVer >> 20, (nBurnVer >> 16) & 0x0F, (nBurnVer >> 8) & 0xFF, nBurnVer & 0xFF, GIT_VERSION);
 
 	info->library_name = "专为街机改版游戏定制";
-	info->library_version = "浙江台州定制核心";
+	info->library_version = "-PENG编译";
 	info->need_fullpath = true;
 	info->block_extract = true;
 	info->valid_extensions = "zip|7z|cue|ccd";
